@@ -1,7 +1,7 @@
 # Learning-Python-ML
 Learning Python programming and various machine learning libraries.
 
-## Installation
+## Installation of Python3, ML Libraries and Jupyter
 
 This installation should work for Ubuntu or the Windows Ubuntu sub-system (WLS).
 
