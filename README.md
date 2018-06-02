@@ -3,6 +3,8 @@ Learning Python programming and various machine learning libraries.
 
 ## Installation
 
+This installation should work for Ubuntu or the Windows Ubuntu sub-system (WLS).
+
 * Start with [PyEnv](https://github.com/pyenv/pyenv):
   * `git clone https://github.com/pyenv/pyenv.git ~/.pyenv`
   * `echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc`
@@ -20,7 +22,10 @@ Learning Python programming and various machine learning libraries.
   * `source ~/.bashrc`
   * `mkvirtualenv jupyter`
   * Whenever you need this environment: `workon jupyter`
-  * Or add this to your bashrc:v`echo 'eval "workon jupyter"' >> ~/.bashrc`
-* From within the `jupyter` environment:
+  * Or add this to your bashrc: `echo 'eval "workon jupyter"' >> ~/.bashrc`
+* From within the `jupyter` environment the required libraries:
   * `pip install jupyter numpy scipy pandas matplotlib plotly seaborn scikit-learn`
+* Then try our [Jupyter](https://jupyter.org/): 
+  * ` jupyter notebook --no-browser`
+  * Then open a browser tab to the provided URL.
   
