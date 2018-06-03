@@ -18,14 +18,13 @@ This installation should work for Ubuntu or the Windows Ubuntu sub-system (WLS).
   * Confirm latest version: `pip -V`
 * Next is [virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper) and config env:
   * `git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper`
-  * `echo 'eval "pyenv virtualenvwrapper"' >> ~/.bashrc`
+  * `echo 'pyenv virtualenvwrapper' >> ~/.bashrc`
   * `source ~/.bashrc`
   * `mkvirtualenv jupyter`
   * Whenever you need this environment: `workon jupyter`
-  * Or add this to your bashrc: `echo 'eval "workon jupyter"' >> ~/.bashrc`
+  * Or add this to your bashrc: `echo 'workon jupyter' >> ~/.bashrc`
 * From within the `jupyter` environment the required libraries:
   * `pip install jupyter numpy scipy pandas matplotlib plotly seaborn scikit-learn`
 * Then try our [Jupyter](https://jupyter.org/): 
   * ` jupyter notebook --no-browser`
   * Then open a browser tab to the provided URL.
-  
